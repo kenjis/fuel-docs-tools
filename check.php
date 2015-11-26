@@ -61,6 +61,8 @@ function check_progress(FuelDocs $docs_en, FuelDocs $docs_ja)
 
 function check_date(FuelDocs $docs_en, FuelDocs $docs_ja)
 {
+    $error = false;
+    
     foreach ($docs_en as $file => $val) {
         $date_en = new DateTime($docs_en->getDate($file));
         $date_ja = new DateTime($docs_ja->getDate($file));
