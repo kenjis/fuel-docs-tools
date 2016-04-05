@@ -55,3 +55,8 @@ $ php check.php date
 ## ライセンス
 
 MIT License
+
+## 関連
+
+* https://github.com/NEKOGET/FuelPHP_docs_jp
+* https://github.com/fuel/docs
